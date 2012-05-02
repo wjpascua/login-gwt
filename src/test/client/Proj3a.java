@@ -120,8 +120,9 @@ public class Proj3a implements EntryPoint, ClickHandler
 			       if (id < 0){
 			          Window.alert("Invalid User");
 			       }
-		           if (id > 0)
-		        	  Window.alert("User Login Sucessfully");
+			       else {
+		        	  Window.alert("Login Successful");
+		           }
 			    }
 		     }
           });
